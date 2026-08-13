@@ -224,7 +224,7 @@ def plot_clusters_2d(X, labels, segments, radii, title="Line Segment K-Means Clu
     plt.grid(True, alpha=0.3)
     plt.axis('equal')
     plt.tight_layout()
-    plt.savefig('./images/line_segm_kmeans_on_flame.png')
+    # plt.savefig('./images/line_segm_kmeans_result.png')
     
     return plt.gcf()
 
